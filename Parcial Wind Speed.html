@@ -1075,6 +1075,9 @@ Para <strong>v2</strong>: La mediana está casi en el punto máximo, los datos e
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="_images/8aa8de383437c7b7988c0b5fc5b88162c8ffc67de1c329d240a8c732a6d0f719.png" src="_images/8aa8de383437c7b7988c0b5fc5b88162c8ffc67de1c329d240a8c732a6d0f719.png" />
+</div>
 </div>
 <p>Se realiza un análisis de la dispersión de las variables independientes vs la variable respuesta. Se puede observar como se dispersan los datos en cada una de las relaciones. Para verlo más al detalle y entender su relación analizamos los siguientes gráficos:</p>
 <div class="cell docutils container">
@@ -1100,13 +1103,13 @@ Para <strong>v2</strong>: La mediana está casi en el punto máximo, los datos e
 </div>
 <div class="cell_output docutils container">
 <img alt="_images/db85055075c9583c1eb3bcd30e3fed4d5cfaa31b64839cd13d9c59a889a99671.png" src="_images/db85055075c9583c1eb3bcd30e3fed4d5cfaa31b64839cd13d9c59a889a99671.png" />
-<img alt="_images/2b6a0c855b48ea71a3de9cdeab7ff547e4cc6dfe6f1901cec25efef4fdfd2f96.png" src="_images/2b6a0c855b48ea71a3de9cdeab7ff547e4cc6dfe6f1901cec25efef4fdfd2f96.png" />
+<img alt="_images/f0bd6259fbb36901bde5a535cb5c65d6ca972894c4f2b2db143ecbaa1e922d24.png" src="_images/f0bd6259fbb36901bde5a535cb5c65d6ca972894c4f2b2db143ecbaa1e922d24.png" />
 <img alt="_images/c78b907e97ac7e42a6e5aa70ad86982cc281d396c0e9bca8ea8d64beb61e5901.png" src="_images/c78b907e97ac7e42a6e5aa70ad86982cc281d396c0e9bca8ea8d64beb61e5901.png" />
-<img alt="_images/336a6fa93222a7d3e760474083f8b278c2190987cf759647f8e92942469d219f.png" src="_images/336a6fa93222a7d3e760474083f8b278c2190987cf759647f8e92942469d219f.png" />
+<img alt="_images/dd38dc3ca2268efe993583dc710fb424cb440ff115b9beb17aed83fb5ae9172b.png" src="_images/dd38dc3ca2268efe993583dc710fb424cb440ff115b9beb17aed83fb5ae9172b.png" />
 <img alt="_images/34c5606069f65b6081c9ececb08bf66c46db081882a2bb8d46cffa9d5a214b81.png" src="_images/34c5606069f65b6081c9ececb08bf66c46db081882a2bb8d46cffa9d5a214b81.png" />
-<img alt="_images/ab655de775bf9b232f246faa309041886b90c3290303d18f7678cffe030449ee.png" src="_images/ab655de775bf9b232f246faa309041886b90c3290303d18f7678cffe030449ee.png" />
+<img alt="_images/e54f5d3b399561fed76ed5a67b09bf198a7f49a73d6752552556aeff934f64d4.png" src="_images/e54f5d3b399561fed76ed5a67b09bf198a7f49a73d6752552556aeff934f64d4.png" />
 <img alt="_images/ef001a4f90b1728305c9b0bcb77fcdc4ad7501d153fc1e508e9e95fd749dc5cc.png" src="_images/ef001a4f90b1728305c9b0bcb77fcdc4ad7501d153fc1e508e9e95fd749dc5cc.png" />
-<img alt="_images/b535473079aa48fb0c572c4896b42891819c8e9ea2ad79150bdb4ca1e191c0a6.png" src="_images/b535473079aa48fb0c572c4896b42891819c8e9ea2ad79150bdb4ca1e191c0a6.png" />
+<img alt="_images/d0de8d407d83c43fab20a417e495dcb08f084c180bfaab227fd43e3ac9c0aa60.png" src="_images/d0de8d407d83c43fab20a417e495dcb08f084c180bfaab227fd43e3ac9c0aa60.png" />
 </div>
 </div>
 <p>Con el análisis bivariado podemos comprender cómo se relacionan las variables entre sí y la relación entre las variables independientes presentes en el conjunto de datos  y para identificar patrones de tendencia lineal.</p>
@@ -1409,6 +1412,229 @@ memory usage: 2.3 MB
             <span class="n">promedios_modelos</span><span class="p">[</span><span class="n">model_name</span><span class="p">][</span><span class="s1">&#39;r2&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">r2</span><span class="p">)</span>
             
             
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\parallel.py:975,</span> in <span class="ni">Parallel.retrieve</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">974</span> <span class="k">if</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_backend</span><span class="p">,</span> <span class="s1">&#39;supports_timeout&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">975</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_output</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">job</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">timeout</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">timeout</span><span class="p">))</span>
+<span class="g g-Whitespace">    </span><span class="mi">976</span> <span class="k">else</span><span class="p">:</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\_parallel_backends.py:567,</span> in <span class="ni">LokyBackend.wrap_future_result</span><span class="nt">(future, timeout)</span>
+<span class="g g-Whitespace">    </span><span class="mi">566</span> <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">567</span>     <span class="k">return</span> <span class="n">future</span><span class="o">.</span><span class="n">result</span><span class="p">(</span><span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">568</span> <span class="k">except</span> <span class="n">CfTimeoutError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\concurrent\futures\_base.py:441,</span> in <span class="ni">Future.result</span><span class="nt">(self, timeout)</span>
+<span class="g g-Whitespace">    </span><span class="mi">439</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__get_result</span><span class="p">()</span>
+<span class="ne">--&gt; </span><span class="mi">441</span> <span class="bp">self</span><span class="o">.</span><span class="n">_condition</span><span class="o">.</span><span class="n">wait</span><span class="p">(</span><span class="n">timeout</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">443</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_state</span> <span class="ow">in</span> <span class="p">[</span><span class="n">CANCELLED</span><span class="p">,</span> <span class="n">CANCELLED_AND_NOTIFIED</span><span class="p">]:</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\threading.py:312,</span> in <span class="ni">Condition.wait</span><span class="nt">(self, timeout)</span>
+<span class="g g-Whitespace">    </span><span class="mi">311</span> <span class="k">if</span> <span class="n">timeout</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">312</span>     <span class="n">waiter</span><span class="o">.</span><span class="n">acquire</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">313</span>     <span class="n">gotit</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="ne">KeyboardInterrupt</span>: 
+
+<span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
+
+<span class="ne">OSError</span><span class="g g-Whitespace">                                   </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">27</span><span class="p">],</span> <span class="n">line</span> <span class="mi">98</span>
+<span class="g g-Whitespace">     </span><span class="mi">96</span> <span class="k">for</span> <span class="n">model_name</span><span class="p">,</span> <span class="p">(</span><span class="n">pipeline</span><span class="p">,</span> <span class="n">params</span><span class="p">)</span> <span class="ow">in</span> <span class="n">modelos</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+<span class="g g-Whitespace">     </span><span class="mi">97</span>     <span class="n">grid_search</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">pipeline</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;neg_mean_squared_error&#39;</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="ne">---&gt; </span><span class="mi">98</span>     <span class="n">grid_search</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">100</span>     <span class="n">best_estimator</span> <span class="o">=</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_estimator_</span>
+<span class="g g-Whitespace">    </span><span class="mi">102</span>     <span class="c1"># Evaluar el modelo</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\sklearn\base.py:1151,</span> in <span class="ni">_fit_context.&lt;locals&gt;.decorator.&lt;locals&gt;.wrapper</span><span class="nt">(estimator, *args, **kwargs)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1144</span>     <span class="n">estimator</span><span class="o">.</span><span class="n">_validate_params</span><span class="p">()</span>
+<span class="g g-Whitespace">   </span><span class="mi">1146</span> <span class="k">with</span> <span class="n">config_context</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1147</span>     <span class="n">skip_parameter_validation</span><span class="o">=</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1148</span>         <span class="n">prefer_skip_nested_validation</span> <span class="ow">or</span> <span class="n">global_skip_validation</span>
+<span class="g g-Whitespace">   </span><span class="mi">1149</span>     <span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1150</span> <span class="p">):</span>
+<span class="ne">-&gt; </span><span class="mi">1151</span>     <span class="k">return</span> <span class="n">fit_method</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\sklearn\model_selection\_search.py:898,</span> in <span class="ni">BaseSearchCV.fit</span><span class="nt">(self, X, y, groups, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">892</span>     <span class="n">results</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_format_results</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">893</span>         <span class="n">all_candidate_params</span><span class="p">,</span> <span class="n">n_splits</span><span class="p">,</span> <span class="n">all_out</span><span class="p">,</span> <span class="n">all_more_results</span>
+<span class="g g-Whitespace">    </span><span class="mi">894</span>     <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">896</span>     <span class="k">return</span> <span class="n">results</span>
+<span class="ne">--&gt; </span><span class="mi">898</span> <span class="bp">self</span><span class="o">.</span><span class="n">_run_search</span><span class="p">(</span><span class="n">evaluate_candidates</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">900</span> <span class="c1"># multimetric is determined here because in the case of a callable</span>
+<span class="g g-Whitespace">    </span><span class="mi">901</span> <span class="c1"># self.scoring the return type is only known after calling</span>
+<span class="g g-Whitespace">    </span><span class="mi">902</span> <span class="n">first_test_score</span> <span class="o">=</span> <span class="n">all_out</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;test_scores&quot;</span><span class="p">]</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\sklearn\model_selection\_search.py:1419,</span> in <span class="ni">GridSearchCV._run_search</span><span class="nt">(self, evaluate_candidates)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1417</span> <span class="k">def</span> <span class="nf">_run_search</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evaluate_candidates</span><span class="p">):</span>
+<span class="g g-Whitespace">   </span><span class="mi">1418</span><span class="w">     </span><span class="sd">&quot;&quot;&quot;Search all candidates in param_grid&quot;&quot;&quot;</span>
+<span class="ne">-&gt; </span><span class="mi">1419</span>     <span class="n">evaluate_candidates</span><span class="p">(</span><span class="n">ParameterGrid</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">param_grid</span><span class="p">))</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\sklearn\model_selection\_search.py:845,</span> in <span class="ni">BaseSearchCV.fit.&lt;locals&gt;.evaluate_candidates</span><span class="nt">(candidate_params, cv, more_results)</span>
+<span class="g g-Whitespace">    </span><span class="mi">837</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">838</span>     <span class="nb">print</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">839</span>         <span class="s2">&quot;Fitting </span><span class="si">{0}</span><span class="s2"> folds for each of </span><span class="si">{1}</span><span class="s2"> candidates,&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">840</span>         <span class="s2">&quot; totalling </span><span class="si">{2}</span><span class="s2"> fits&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">841</span>             <span class="n">n_splits</span><span class="p">,</span> <span class="n">n_candidates</span><span class="p">,</span> <span class="n">n_candidates</span> <span class="o">*</span> <span class="n">n_splits</span>
+<span class="g g-Whitespace">    </span><span class="mi">842</span>         <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">843</span>     <span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">845</span> <span class="n">out</span> <span class="o">=</span> <span class="n">parallel</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">846</span>     <span class="n">delayed</span><span class="p">(</span><span class="n">_fit_and_score</span><span class="p">)(</span>
+<span class="g g-Whitespace">    </span><span class="mi">847</span>         <span class="n">clone</span><span class="p">(</span><span class="n">base_estimator</span><span class="p">),</span>
+<span class="g g-Whitespace">    </span><span class="mi">848</span>         <span class="n">X</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">849</span>         <span class="n">y</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">850</span>         <span class="n">train</span><span class="o">=</span><span class="n">train</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">851</span>         <span class="n">test</span><span class="o">=</span><span class="n">test</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">852</span>         <span class="n">parameters</span><span class="o">=</span><span class="n">parameters</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">853</span>         <span class="n">split_progress</span><span class="o">=</span><span class="p">(</span><span class="n">split_idx</span><span class="p">,</span> <span class="n">n_splits</span><span class="p">),</span>
+<span class="g g-Whitespace">    </span><span class="mi">854</span>         <span class="n">candidate_progress</span><span class="o">=</span><span class="p">(</span><span class="n">cand_idx</span><span class="p">,</span> <span class="n">n_candidates</span><span class="p">),</span>
+<span class="g g-Whitespace">    </span><span class="mi">855</span>         <span class="o">**</span><span class="n">fit_and_score_kwargs</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">856</span>     <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">857</span>     <span class="k">for</span> <span class="p">(</span><span class="n">cand_idx</span><span class="p">,</span> <span class="n">parameters</span><span class="p">),</span> <span class="p">(</span><span class="n">split_idx</span><span class="p">,</span> <span class="p">(</span><span class="n">train</span><span class="p">,</span> <span class="n">test</span><span class="p">))</span> <span class="ow">in</span> <span class="n">product</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">858</span>         <span class="nb">enumerate</span><span class="p">(</span><span class="n">candidate_params</span><span class="p">),</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">cv</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">groups</span><span class="p">))</span>
+<span class="g g-Whitespace">    </span><span class="mi">859</span>     <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">860</span> <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">862</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">out</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">863</span>     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">864</span>         <span class="s2">&quot;No fits were performed. &quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">865</span>         <span class="s2">&quot;Was the CV iterator empty? &quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">866</span>         <span class="s2">&quot;Were there no candidates?&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">867</span>     <span class="p">)</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\sklearn\utils\parallel.py:65,</span> in <span class="ni">Parallel.__call__</span><span class="nt">(self, iterable)</span>
+<span class="g g-Whitespace">     </span><span class="mi">60</span> <span class="n">config</span> <span class="o">=</span> <span class="n">get_config</span><span class="p">()</span>
+<span class="g g-Whitespace">     </span><span class="mi">61</span> <span class="n">iterable_with_config</span> <span class="o">=</span> <span class="p">(</span>
+<span class="g g-Whitespace">     </span><span class="mi">62</span>     <span class="p">(</span><span class="n">_with_config</span><span class="p">(</span><span class="n">delayed_func</span><span class="p">,</span> <span class="n">config</span><span class="p">),</span> <span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">63</span>     <span class="k">for</span> <span class="n">delayed_func</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span> <span class="ow">in</span> <span class="n">iterable</span>
+<span class="g g-Whitespace">     </span><span class="mi">64</span> <span class="p">)</span>
+<span class="ne">---&gt; </span><span class="mi">65</span> <span class="k">return</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__call__</span><span class="p">(</span><span class="n">iterable_with_config</span><span class="p">)</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\parallel.py:1098,</span> in <span class="ni">Parallel.__call__</span><span class="nt">(self, iterable)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1095</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_iterating</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="g g-Whitespace">   </span><span class="mi">1097</span> <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">_backend</span><span class="o">.</span><span class="n">retrieval_context</span><span class="p">():</span>
+<span class="ne">-&gt; </span><span class="mi">1098</span>     <span class="bp">self</span><span class="o">.</span><span class="n">retrieve</span><span class="p">()</span>
+<span class="g g-Whitespace">   </span><span class="mi">1099</span> <span class="c1"># Make sure that we get a last message telling us we are done</span>
+<span class="g g-Whitespace">   </span><span class="mi">1100</span> <span class="n">elapsed_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">_start_time</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\parallel.py:997,</span> in <span class="ni">Parallel.retrieve</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">991</span> <span class="k">if</span> <span class="p">(</span><span class="n">backend</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span>
+<span class="g g-Whitespace">    </span><span class="mi">992</span>         <span class="nb">hasattr</span><span class="p">(</span><span class="n">backend</span><span class="p">,</span> <span class="s1">&#39;abort_everything&#39;</span><span class="p">)):</span>
+<span class="g g-Whitespace">    </span><span class="mi">993</span>     <span class="c1"># If the backend is managed externally we need to make sure</span>
+<span class="g g-Whitespace">    </span><span class="mi">994</span>     <span class="c1"># to leave it in a working state to allow for future jobs</span>
+<span class="g g-Whitespace">    </span><span class="mi">995</span>     <span class="c1"># scheduling.</span>
+<span class="g g-Whitespace">    </span><span class="mi">996</span>     <span class="n">ensure_ready</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_managed_backend</span>
+<span class="ne">--&gt; </span><span class="mi">997</span>     <span class="n">backend</span><span class="o">.</span><span class="n">abort_everything</span><span class="p">(</span><span class="n">ensure_ready</span><span class="o">=</span><span class="n">ensure_ready</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">998</span> <span class="k">raise</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\_parallel_backends.py:590,</span> in <span class="ni">LokyBackend.abort_everything</span><span class="nt">(self, ensure_ready)</span>
+<span class="g g-Whitespace">    </span><span class="mi">587</span> <span class="bp">self</span><span class="o">.</span><span class="n">_workers</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="g g-Whitespace">    </span><span class="mi">589</span> <span class="k">if</span> <span class="n">ensure_ready</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">590</span>     <span class="bp">self</span><span class="o">.</span><span class="n">configure</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">parallel</span><span class="o">.</span><span class="n">n_jobs</span><span class="p">,</span> <span class="n">parallel</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">parallel</span><span class="p">)</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\_parallel_backends.py:506,</span> in <span class="ni">LokyBackend.configure</span><span class="nt">(self, n_jobs, parallel, prefer, require, idle_worker_timeout, **memmappingexecutor_args)</span>
+<span class="g g-Whitespace">    </span><span class="mi">502</span> <span class="k">if</span> <span class="n">n_jobs</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">503</span>     <span class="k">raise</span> <span class="n">FallbackToBackend</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">504</span>         <span class="n">SequentialBackend</span><span class="p">(</span><span class="n">nesting_level</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">nesting_level</span><span class="p">))</span>
+<span class="ne">--&gt; </span><span class="mi">506</span> <span class="bp">self</span><span class="o">.</span><span class="n">_workers</span> <span class="o">=</span> <span class="n">get_memmapping_executor</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">507</span>     <span class="n">n_jobs</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">idle_worker_timeout</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">508</span>     <span class="n">env</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_prepare_worker_env</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="n">n_jobs</span><span class="p">),</span>
+<span class="g g-Whitespace">    </span><span class="mi">509</span>     <span class="n">context_id</span><span class="o">=</span><span class="n">parallel</span><span class="o">.</span><span class="n">_id</span><span class="p">,</span> <span class="o">**</span><span class="n">memmappingexecutor_args</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">510</span> <span class="bp">self</span><span class="o">.</span><span class="n">parallel</span> <span class="o">=</span> <span class="n">parallel</span>
+<span class="g g-Whitespace">    </span><span class="mi">511</span> <span class="k">return</span> <span class="n">n_jobs</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\executor.py:20,</span> in <span class="ni">get_memmapping_executor</span><span class="nt">(n_jobs, **kwargs)</span>
+<span class="g g-Whitespace">     </span><span class="mi">19</span> <span class="k">def</span> <span class="nf">get_memmapping_executor</span><span class="p">(</span><span class="n">n_jobs</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<span class="ne">---&gt; </span><span class="mi">20</span>     <span class="k">return</span> <span class="n">MemmappingExecutor</span><span class="o">.</span><span class="n">get_memmapping_executor</span><span class="p">(</span><span class="n">n_jobs</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\executor.py:42,</span> in <span class="ni">MemmappingExecutor.get_memmapping_executor</span><span class="nt">(cls, n_jobs, timeout, initializer, initargs, env, temp_folder, context_id, **backend_args)</span>
+<span class="g g-Whitespace">     </span><span class="mi">39</span> <span class="n">reuse</span> <span class="o">=</span> <span class="n">_executor_args</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">_executor_args</span> <span class="o">==</span> <span class="n">executor_args</span>
+<span class="g g-Whitespace">     </span><span class="mi">40</span> <span class="n">_executor_args</span> <span class="o">=</span> <span class="n">executor_args</span>
+<span class="ne">---&gt; </span><span class="mi">42</span> <span class="n">manager</span> <span class="o">=</span> <span class="n">TemporaryResourcesManager</span><span class="p">(</span><span class="n">temp_folder</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">44</span> <span class="c1"># reducers access the temporary folder in which to store temporary</span>
+<span class="g g-Whitespace">     </span><span class="mi">45</span> <span class="c1"># pickles through a call to manager.resolve_temp_folder_name. resolving</span>
+<span class="g g-Whitespace">     </span><span class="mi">46</span> <span class="c1"># the folder name dynamically is useful to use different folders across</span>
+<span class="g g-Whitespace">     </span><span class="mi">47</span> <span class="c1"># calls of a same reusable executor</span>
+<span class="g g-Whitespace">     </span><span class="mi">48</span> <span class="n">job_reducers</span><span class="p">,</span> <span class="n">result_reducers</span> <span class="o">=</span> <span class="n">get_memmapping_reducers</span><span class="p">(</span>
+<span class="g g-Whitespace">     </span><span class="mi">49</span>     <span class="n">unlink_on_gc_collect</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+<span class="g g-Whitespace">     </span><span class="mi">50</span>     <span class="n">temp_folder_resolver</span><span class="o">=</span><span class="n">manager</span><span class="o">.</span><span class="n">resolve_temp_folder_name</span><span class="p">,</span>
+<span class="g g-Whitespace">     </span><span class="mi">51</span>     <span class="o">**</span><span class="n">backend_args</span><span class="p">)</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\_memmapping_reducer.py:535,</span> in <span class="ni">TemporaryResourcesManager.__init__</span><span class="nt">(self, temp_folder_root, context_id)</span>
+<span class="g g-Whitespace">    </span><span class="mi">529</span> <span class="k">if</span> <span class="n">context_id</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">530</span>     <span class="c1"># It would be safer to not assign a default context id (less silent</span>
+<span class="g g-Whitespace">    </span><span class="mi">531</span>     <span class="c1"># bugs), but doing this while maintaining backward compatibility</span>
+<span class="g g-Whitespace">    </span><span class="mi">532</span>     <span class="c1"># with the previous, context-unaware version get_memmaping_executor</span>
+<span class="g g-Whitespace">    </span><span class="mi">533</span>     <span class="c1"># exposes exposes too many low-level details.</span>
+<span class="g g-Whitespace">    </span><span class="mi">534</span>     <span class="n">context_id</span> <span class="o">=</span> <span class="n">uuid4</span><span class="p">()</span><span class="o">.</span><span class="n">hex</span>
+<span class="ne">--&gt; </span><span class="mi">535</span> <span class="bp">self</span><span class="o">.</span><span class="n">set_current_context</span><span class="p">(</span><span class="n">context_id</span><span class="p">)</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\_memmapping_reducer.py:539,</span> in <span class="ni">TemporaryResourcesManager.set_current_context</span><span class="nt">(self, context_id)</span>
+<span class="g g-Whitespace">    </span><span class="mi">537</span> <span class="k">def</span> <span class="nf">set_current_context</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">context_id</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">538</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_current_context_id</span> <span class="o">=</span> <span class="n">context_id</span>
+<span class="ne">--&gt; </span><span class="mi">539</span>     <span class="bp">self</span><span class="o">.</span><span class="n">register_new_context</span><span class="p">(</span><span class="n">context_id</span><span class="p">)</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\_memmapping_reducer.py:564,</span> in <span class="ni">TemporaryResourcesManager.register_new_context</span><span class="nt">(self, context_id)</span>
+<span class="g g-Whitespace">    </span><span class="mi">557</span> <span class="n">new_folder_name</span> <span class="o">=</span> <span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">558</span>     <span class="s2">&quot;joblib_memmapping_folder_</span><span class="si">{}</span><span class="s2">_</span><span class="si">{}</span><span class="s2">_</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">559</span>         <span class="n">os</span><span class="o">.</span><span class="n">getpid</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="n">_id</span><span class="p">,</span> <span class="n">context_id</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">560</span> <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">561</span> <span class="n">new_folder_path</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">_get_temp_dir</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">562</span>     <span class="n">new_folder_name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_temp_folder_root</span>
+<span class="g g-Whitespace">    </span><span class="mi">563</span> <span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">564</span> <span class="bp">self</span><span class="o">.</span><span class="n">register_folder_finalizer</span><span class="p">(</span><span class="n">new_folder_path</span><span class="p">,</span> <span class="n">context_id</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">565</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cached_temp_folders</span><span class="p">[</span><span class="n">context_id</span><span class="p">]</span> <span class="o">=</span> <span class="n">new_folder_path</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\_memmapping_reducer.py:594,</span> in <span class="ni">TemporaryResourcesManager.register_folder_finalizer</span><span class="nt">(self, pool_subfolder, context_id)</span>
+<span class="g g-Whitespace">    </span><span class="mi">587</span> <span class="k">def</span> <span class="nf">register_folder_finalizer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pool_subfolder</span><span class="p">,</span> <span class="n">context_id</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">588</span>     <span class="c1"># Register the garbage collector at program exit in case caller forgets</span>
+<span class="g g-Whitespace">    </span><span class="mi">589</span>     <span class="c1"># to call terminate explicitly: note we do not pass any reference to</span>
+<span class="g g-Whitespace">    </span><span class="mi">590</span>     <span class="c1"># ensure that this callback won&#39;t prevent garbage collection of</span>
+<span class="g g-Whitespace">    </span><span class="mi">591</span>     <span class="c1"># parallel instance and related file handler resources such as POSIX</span>
+<span class="g g-Whitespace">    </span><span class="mi">592</span>     <span class="c1"># semaphores and pipes</span>
+<span class="g g-Whitespace">    </span><span class="mi">593</span>     <span class="n">pool_module_name</span> <span class="o">=</span> <span class="n">whichmodule</span><span class="p">(</span><span class="n">delete_folder</span><span class="p">,</span> <span class="s1">&#39;delete_folder&#39;</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">594</span>     <span class="n">resource_tracker</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="n">pool_subfolder</span><span class="p">,</span> <span class="s2">&quot;folder&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">596</span>     <span class="k">def</span> <span class="nf">_cleanup</span><span class="p">():</span>
+<span class="g g-Whitespace">    </span><span class="mi">597</span>         <span class="c1"># In some cases the Python runtime seems to set delete_folder to</span>
+<span class="g g-Whitespace">    </span><span class="mi">598</span>         <span class="c1"># None just before exiting when accessing the delete_folder</span>
+   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">603</span>         <span class="c1"># because joblib should only use relative imports to allow</span>
+<span class="g g-Whitespace">    </span><span class="mi">604</span>         <span class="c1"># easy vendoring.</span>
+<span class="g g-Whitespace">    </span><span class="mi">605</span>         <span class="n">delete_folder</span> <span class="o">=</span> <span class="nb">__import__</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">606</span>             <span class="n">pool_module_name</span><span class="p">,</span> <span class="n">fromlist</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;delete_folder&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">delete_folder</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\externals\loky\backend\resource_tracker.py:178,</span> in <span class="ni">ResourceTracker.register</span><span class="nt">(self, name, rtype)</span>
+<span class="g g-Whitespace">    </span><span class="mi">176</span> <span class="k">def</span> <span class="nf">register</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">rtype</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">177</span><span class="w">     </span><span class="sd">&#39;&#39;&#39;Register a named resource, and increment its refcount.&#39;&#39;&#39;</span>
+<span class="ne">--&gt; </span><span class="mi">178</span>     <span class="bp">self</span><span class="o">.</span><span class="n">ensure_running</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">179</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_send</span><span class="p">(</span><span class="s1">&#39;REGISTER&#39;</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">rtype</span><span class="p">)</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\externals\loky\backend\resource_tracker.py:99,</span> in <span class="ni">ResourceTracker.ensure_running</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">     </span><span class="mi">96</span> <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">_lock</span><span class="p">:</span>
+<span class="g g-Whitespace">     </span><span class="mi">97</span>     <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_fd</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<span class="g g-Whitespace">     </span><span class="mi">98</span>         <span class="c1"># resource tracker was launched before, is it still running?</span>
+<span class="ne">---&gt; </span><span class="mi">99</span>         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_check_alive</span><span class="p">():</span>
+<span class="g g-Whitespace">    </span><span class="mi">100</span>             <span class="c1"># =&gt; still alive</span>
+<span class="g g-Whitespace">    </span><span class="mi">101</span>             <span class="k">return</span>
+<span class="g g-Whitespace">    </span><span class="mi">102</span>         <span class="c1"># =&gt; dead, launch it again</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\externals\loky\backend\resource_tracker.py:170,</span> in <span class="ni">ResourceTracker._check_alive</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">168</span><span class="w"> </span><span class="sd">&#39;&#39;&#39;Check for the existence of the resource tracker process.&#39;&#39;&#39;</span>
+<span class="g g-Whitespace">    </span><span class="mi">169</span> <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">170</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_send</span><span class="p">(</span><span class="s1">&#39;PROBE&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">171</span> <span class="k">except</span> <span class="ne">BrokenPipeError</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">172</span>     <span class="k">return</span> <span class="kc">False</span>
+
+<span class="nn">File ~\miniconda3\envs\ml_venv\lib\site-packages\joblib\externals\loky\backend\resource_tracker.py:197,</span> in <span class="ni">ResourceTracker._send</span><span class="nt">(self, cmd, name, rtype)</span>
+<span class="g g-Whitespace">    </span><span class="mi">195</span>     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;name too long&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">196</span> <span class="n">msg</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">cmd</span><span class="si">}</span><span class="s1">:</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1">:</span><span class="si">{</span><span class="n">rtype</span><span class="si">}</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;ascii&#39;</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">197</span> <span class="n">nbytes</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_fd</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">198</span> <span class="k">assert</span> <span class="n">nbytes</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+
+<span class="ne">OSError</span>: [Errno 22] Invalid argument
 </pre></div>
 </div>
 </div>
